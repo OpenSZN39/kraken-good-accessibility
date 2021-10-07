@@ -123,7 +123,7 @@ article div :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+article section :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
@@ -132,7 +132,7 @@ figure {
   margin: 1.5rem 0;
 }
 
-figure img {
+section img {
   border: 1px solid #259f95;
   border-radius: 6px;
   margin-bottom: 1.5rem;
@@ -144,7 +144,10 @@ figcaption {
   text-align: center;
 }
 
-article footer {
+footer .nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #259f95;
   background-image: none;
   border-radius: 6px 6px 0 0;
