@@ -132,7 +132,7 @@ figure {
   margin: 1.5rem 0;
 }
 
-section img {
+figure img {
   border: 1px solid #259f95;
   border-radius: 6px;
   margin-bottom: 1.5rem;
@@ -144,7 +144,7 @@ figcaption {
   text-align: center;
 }
 
-footer .nav2 {
+footer nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -152,6 +152,14 @@ footer .nav2 {
   background-image: none;
   border-radius: 6px 6px 0 0;
   color: #fff;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
